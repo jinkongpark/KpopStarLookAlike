@@ -101,19 +101,11 @@ p {
 
 
 .file-upload-image {
-    width: 50%;
-    margin: auto;
-    padding: 10px;
-}
-
-
-/* 
-.file-upload-image {
     max-height: 60%;
     max-width: 60%;
     margin: auto;
     padding: 10px;
-} */
+}
 
 .remove-image {
     width: 200px;
@@ -298,52 +290,25 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     font-size: 2rem;
 }
 
-.SongJoongKi-animal-title {
+.rabbit-animal-title {
     color: #e56995;
 }
 
-.JungKook-animal-title {
+.dog-animal-title {
     color: #2CB4E3;
 }
 
-.GongYoo-animal-title {
+.cat-animal-title {
     color: #FCB33D;
 }
 
-.LeeJongSuk-animal-title {
+.dinosaur-animal-title {
     color: #75CC55;
 }
 
-.HyunBin-animal-title {
+.bear-animal-title {
     color: #C48C65;
 }
-
-
-
-
-.SongHyeKyo-animal-title {
-    color: #e56995;
-}
-
-.Tzuyu-animal-title {
-    color: #2CB4E3;
-}
-
-.SonYeJin-animal-title {
-    color: #FCB33D;
-}
-
-.Suzy-animal-title {
-    color: #75CC55;
-}
-
-.IU-animal-title {
-    color: #C48C65;
-}
-
-
-
-
 
 .deer-animal-title {
     color: #82D065;
@@ -365,62 +330,28 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     padding-bottom: .5rem!important;
 }
 
-
-
-.JungKook-animal-celeb {
-    color: #2CB4E3;
-    font-size: 1.2rem;
-}
-
-.SongJoongKi-animal-celeb {
+.rabbit-animal-celeb {
     color: #e56995;
     font-size: 1.2rem;
 }
 
-.GongYoo-animal-celeb {
+.cat-animal-celeb {
     color: #FCB33D;
     font-size: 1.2rem;
 }
 
-.LeeJongSuk-animal-celeb {
-    color: #75CC55;
-    font-size: 1.2rem;
-}.HyunBin-animal-celeb {
-    color: #C48C65;
-    font-size: 1.2rem;
-}
-
-
-
-
-.Tzuyu-animal-celeb {
+.dog-animal-celeb {
     color: #2CB4E3;
     font-size: 1.2rem;
 }
 
-.SongHyeKyo-animal-celeb {
-    color: #e56995;
-    font-size: 1.2rem;
-}
-
-.SonYeJin-animal-celeb {
-    color: #FCB33D;
-    font-size: 1.2rem;
-}
-
-.Suzy-animal-celeb {
+.dinosaur-animal-celeb {
     color: #75CC55;
     font-size: 1.2rem;
-}
-.IU-animal-celeb {
+}.bear-animal-celeb {
     color: #C48C65;
     font-size: 1.2rem;
-}
-
-
-
-
-.deer-animal-celeb {
+}.deer-animal-celeb {
     color: #82D065;
     font-size: 1.2rem;
 }
@@ -439,9 +370,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     height: 2.7rem;
 }
 
-
-
-.GongYoo-box {
+.cat-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -451,7 +380,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     background-color: rgba(252, 179, 61, 0.2);
 }
 
-.JungKook-box {
+.dog-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -461,8 +390,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     background-color: rgba(44, 180, 227, 0.2);
 }
 
-
-.SongJoongKi-box {
+.rabbit-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -472,7 +400,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     background-color: rgba(236, 164, 188, 0.2);
 }
 
-.LeeJongSuk-box {
+.dinosaur-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -482,7 +410,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     background-color: rgba(117, 204, 85, 0.2);
 }
 
-.HyunBin-box {
+.bear-box {
     position: absolute;
     top: 0;
     left: 0;
@@ -491,61 +419,6 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     width: 100%;
     background-color: rgba(196, 140, 101, 0.2);
 }
-
-
-
-.SonYeJin-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color: rgba(252, 179, 61, 0.2);
-}
-
-.Tzuyu-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color: rgba(44, 180, 227, 0.2);
-}
-
-
-.SongHyeKyo-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color: rgba(236, 164, 188, 0.2);
-}
-
-.Suzy-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color: rgba(117, 204, 85, 0.2);
-}
-
-.IU-box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    width: 100%;
-    background-color: rgba(196, 140, 101, 0.2);
-}
-
-
 
 .deer-box {
     position: absolute;
@@ -569,17 +442,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
 
 
 
-.JungKook-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: rgba(44, 180, 227, 1);
-}
-
-
-.GongYoo-bar {
+.cat-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -588,36 +451,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     background-color: rgba(252, 179, 61, 1);
 }
 
-.SongJoongKi-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: rgba(236, 164, 188, 1);
-}
-
-.LeeJongSuk-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: rgba(117, 204, 85, 1);
-}
-
-.HyunBin-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: rgba(196, 140, 101, 1);
-}
-
-
-
-.Tzuyu-bar {
+.dog-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -626,17 +460,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     background-color: rgba(44, 180, 227, 1);
 }
 
-
-.SonYeJin-bar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 2rem;
-    border-radius: 10px;
-    background-color: rgba(252, 179, 61, 1);
-}
-
-.SongHyeKyo-bar {
+.rabbit-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -645,7 +469,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     background-color: rgba(236, 164, 188, 1);
 }
 
-.Suzy-bar {
+.dinosaur-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -654,7 +478,7 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     background-color: rgba(117, 204, 85, 1);
 }
 
-.IU-bar {
+.bear-bar {
     position: absolute;
     top: 0;
     left: 0;
@@ -662,9 +486,6 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     border-radius: 10px;
     background-color: rgba(196, 140, 101, 1);
 }
-
-
-
 
 .deer-bar {
     position: absolute;
@@ -709,8 +530,4 @@ input:checked + label > .knob > i:after, input:checked + label > .knob > i:befor
     padding: 4px 15px;
 }
 
-.face-photo {
-    width: 50%;
-    margin: auto;
-    padding: 10px;
-}
+
